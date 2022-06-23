@@ -15,7 +15,7 @@ export class GearService {
   }
 
   getAllGearsBySearchTerm(searchTerm:string){
-    return this.getAll().filter(gears => gears.name.toLowerCase().includes(searchTerm.toLowerCase()))
+    return this.getAll().filter(gears => gears.name.toLowerCase().includes(searchTerm.toLowerCase()))  // Initializes the Search Bar
   }
 
   getAllGearsById(GearId: string):Gear{

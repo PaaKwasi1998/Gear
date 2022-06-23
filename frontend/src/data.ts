@@ -1,3 +1,5 @@
+/* This is used to use as a sample data */
+/* Images is also added in this file*/  
 import {Gear} from './app/shared/models/gear';
 
 
