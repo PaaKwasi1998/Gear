@@ -11,8 +11,10 @@ An in-depth paragraph about your project and overview of use.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Git
+* Visual Studio Code
+* Angular
+* NodeJs
 
 ### Installing
 
@@ -21,17 +23,20 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* To start the program, you will need to open Visual Studio Code
+* Open a new terminal and start using the code:
 ```
-code blocks for commands
+npm start
 ```
 
 ## Help
 
-Any advise for common problems or issues.
+Any advise for common problems or issues with installing Angular
+* Install Node JS with default settings for everything https://nodejs.org/en/download/
+* Download Visual Studio Code: https://code.visualstudio.com/download
+* Open PowerShell in admin mode. Install Angular CLI:
 ```
-command to run if program contains helper info
+npm install -g @angular/cli
 ```
 
 ## Authors
